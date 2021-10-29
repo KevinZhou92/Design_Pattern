@@ -1,2 +1,2 @@
-# DRY
-Don’t Repeat Yourself
+# Law of Demeter(LOD)
+Each unit should have only limited knowledge about other units: only units “closely” related to the current unit. Or: Each unit should only talk to its friends; Don’t talk to strangers.

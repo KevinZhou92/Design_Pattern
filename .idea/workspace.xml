@@ -8,9 +8,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39dbcb0a-7f26-4fd0-8254-445d788ebfc0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/dry/Dry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/dry/NotDry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/main/java/lod/BadTaste.java" beforeDir="false" afterPath="$PROJECT_DIR$/SOLID/src/main/java/lod/BadTaste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/main/java/lod/GoodTaste.java" beforeDir="false" afterPath="$PROJECT_DIR$/SOLID/src/main/java/lod/GoodTaste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/main/java/lod/Html.java" beforeDir="false" afterPath="$PROJECT_DIR$/SOLID/src/main/java/lod/Html.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/main/java/lod/HtmlRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SOLID/src/main/java/lod/HtmlRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/main/java/lod/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/SOLID/src/main/java/lod/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,20 +43,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SOLID/src/main/java/dry" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SOLID/src/main/java/lod" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="lod" />
       <recent name="solid.o.badTaste" />
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SOLID/src/main/java/lod" />
       <recent name="$PROJECT_DIR$/SOLID/src/main/java/dry" />
       <recent name="$PROJECT_DIR$/SOLID/src/main/java/solid/o/goodTaste" />
       <recent name="$PROJECT_DIR$/SOLID/src/main/java/solid/d" />
       <recent name="$PROJECT_DIR$/SOLID/src/main/java/solid/i" />
-      <recent name="$PROJECT_DIR$/SOLID/src/main/java/solid/l" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="solid.o.goodTaste" />
@@ -67,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1635324861297</updated>
-      <workItem from="1635324863472" duration="13648000" />
+      <workItem from="1635324863472" duration="14842000" />
     </task>
     <servers />
   </component>

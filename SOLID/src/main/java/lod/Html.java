@@ -1,2 +1,4 @@
-package lod;public class Html {
+package lod;
+
+public class Html {
 }

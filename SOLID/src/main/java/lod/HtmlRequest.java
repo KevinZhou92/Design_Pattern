@@ -1,2 +1,4 @@
-package lod;public class HtmlRequest {
+package lod;
+
+public class HtmlRequest {
 }
