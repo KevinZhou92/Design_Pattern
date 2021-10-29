@@ -5,8 +5,8 @@ import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
 public abstract class AlertHandler {
-    private AlertRule alertRule;
-    private Notification notification;
+    protected AlertRule alertRule;
+    protected Notification notification;
 
     public abstract void check(ApiStatInfo apiStatInfo);
 

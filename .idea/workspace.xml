@@ -7,7 +7,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39dbcb0a-7f26-4fd0-8254-445d788ebfc0" name="Changes" comment="" />
+    <list default="true" id="39dbcb0a-7f26-4fd0-8254-445d788ebfc0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/solid/d/DI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/solid/d/IOC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/solid/d/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/main/java/solid/o/goodTaste/AlertHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/SOLID/src/main/java/solid/o/goodTaste/AlertHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/main/java/solid/o/goodTaste/MaxErrorAlertHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/SOLID/src/main/java/solid/o/goodTaste/MaxErrorAlertHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/main/java/solid/o/goodTaste/MaxTpsAlertHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/SOLID/src/main/java/solid/o/goodTaste/MaxTpsAlertHandler.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SOLID/src/main/java/solid/i" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SOLID/src/main/java/solid/d" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
@@ -45,6 +53,7 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SOLID/src/main/java/solid/d" />
       <recent name="$PROJECT_DIR$/SOLID/src/main/java/solid/i" />
       <recent name="$PROJECT_DIR$/SOLID/src/main/java/solid/l" />
       <recent name="$PROJECT_DIR$/SOLID/src/main/java/solid/s" />
@@ -61,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1635324861297</updated>
-      <workItem from="1635324863472" duration="10145000" />
+      <workItem from="1635324863472" duration="12014000" />
     </task>
     <servers />
   </component>

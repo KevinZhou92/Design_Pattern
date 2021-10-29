@@ -11,7 +11,7 @@ public class MaxTpsAlertHandler extends AlertHandler {
     @Override
     public void check(ApiStatInfo apiStatInfo) {
         long tps = apiStatInfo.getRequestCount() / apiStatInfo.getDurationOfSeconds();
-        if (tps > rule.getMatchedRule(apiStatInfo.getApi()).getMaxTps()) {
+        if (tps > alertRule.getMatchedRule(apiStatInfo.getApi()).getMaxTps()) {
             notification.notify(NotificationEmergencyLevel.URGENCY, "...");
         }
     }
