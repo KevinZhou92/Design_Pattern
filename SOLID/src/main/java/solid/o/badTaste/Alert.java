@@ -4,15 +4,15 @@ import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
 public class Alert {
-    private final AlertRule rule;
+    private final AlertRule alertRule;
     private final Notification notification;
 
     public void check(String api, long requestCount, long errorCount, long durationOfSeconds) {
         long tps = requestCount / durationOfSeconds;
-        if (tps > rule.getMatchedRule(api).getMaxTps()) {
+        if (tps > alertRule.getMatchedRule(api).getMaxTps()) {
             notification.notify(NotificationEmergencyLevel.URGENCY, "...");
         }
-        if (errorCount > rule.getMatchedRule(api).getMaxErrorCount()) {
+        if (errorCount > alertRule.getMatchedRule(api).getMaxErrorCount()) {
             notification.notify(NotificationEmergencyLevel.SEVERE, "...");
         }
     }
@@ -25,16 +25,16 @@ public class Alert {
 // Change 1: Add a new parameter
     public void check(String api, long requestCount, long errorCount, long timeoutCount, long durationOfSeconds) {
         long tps = requestCount / durationOfSeconds;
-        if (tps > rule.getMatchedRule(api).getMaxTps()) {
+        if (tps > alertRule.getMatchedRule(api).getMaxTps()) {
             notification.notify(NotificationEmergencyLevel.URGENCY, "...");
         }
-        if (errorCount > rule.getMatchedRule(api).getMaxErrorCount()) {
+        if (errorCount > alertRule.getMatchedRule(api).getMaxErrorCount()) {
             notification.notify(NotificationEmergencyLevel.SEVERE, "...");
         }
 
         // Change 2: Add logic for timeout process
         long timeoutTps = timeoutCount / durationOfSeconds;
-        if (timeoutTps > rule.getMatchedRule(api).getMaxTimeoutTps()) {
+        if (timeoutTps > alertRule.getMatchedRule(api).getMaxTimeoutTps()) {
             notification.notify(NotificationEmergencyLevel.URGENCY, "...");
         }
     }

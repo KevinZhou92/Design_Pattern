@@ -8,13 +8,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39dbcb0a-7f26-4fd0-8254-445d788ebfc0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/solid/d/DI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/solid/d/IOC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/solid/d/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/solid/o/badTaste/Rule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOLID/src/main/java/solid/o/goodTaste/Rule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SOLID/src/main/java/solid/o/goodTaste/AlertHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/SOLID/src/main/java/solid/o/goodTaste/AlertHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/main/java/solid/o/badTaste/Alert.java" beforeDir="false" afterPath="$PROJECT_DIR$/SOLID/src/main/java/solid/o/badTaste/Alert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/main/java/solid/o/badTaste/AlertRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/SOLID/src/main/java/solid/o/badTaste/AlertRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOLID/src/main/java/solid/o/goodTaste/AlertRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/SOLID/src/main/java/solid/o/goodTaste/AlertRule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SOLID/src/main/java/solid/o/goodTaste/MaxErrorAlertHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/SOLID/src/main/java/solid/o/goodTaste/MaxErrorAlertHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SOLID/src/main/java/solid/o/goodTaste/MaxTpsAlertHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/SOLID/src/main/java/solid/o/goodTaste/MaxTpsAlertHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +24,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -44,7 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SOLID/src/main/java/solid/d" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SOLID/src/main/java/solid/o/goodTaste" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
@@ -53,6 +53,7 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SOLID/src/main/java/solid/o/goodTaste" />
       <recent name="$PROJECT_DIR$/SOLID/src/main/java/solid/d" />
       <recent name="$PROJECT_DIR$/SOLID/src/main/java/solid/i" />
       <recent name="$PROJECT_DIR$/SOLID/src/main/java/solid/l" />
@@ -70,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1635324861297</updated>
-      <workItem from="1635324863472" duration="12014000" />
+      <workItem from="1635324863472" duration="12412000" />
     </task>
     <servers />
   </component>

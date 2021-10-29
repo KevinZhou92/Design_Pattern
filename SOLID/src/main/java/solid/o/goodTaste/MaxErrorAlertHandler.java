@@ -15,4 +15,3 @@ public class MaxErrorAlertHandler extends AlertHandler {
         }
     }
 }
-}
